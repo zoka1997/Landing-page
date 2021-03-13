@@ -1,0 +1,45 @@
+.Section-two {
+    padding: 100px 20px;
+}
+
+.basic-text {
+    color: darkslategrey;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.row {
+     margin: 0% 150px !important;
+     animation: fadeInRight ease 1s;
+}
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+.text {
+    padding-top: 5px;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 2px gainsboro;
+    font-weight: bold;
+    font-size: larger;
+}
+
+@media (max-width: 600px) {
+    .colm {
+        padding-bottom: 20px;
+    }
+    .row {
+        margin: 0% !important;
+   }
+}

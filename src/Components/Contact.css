@@ -1,0 +1,47 @@
+.contactus {
+  background-color: rgb(146, 146, 146);
+  padding: 100px 250px;
+}
+
+.form {
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.forms {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  animation: fadeInRight ease 1s;
+}
+
+@keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+} 
+
+
+@media (max-width: 600px) {
+  .contactus {
+     padding: 100px 40px;
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .contactus {
+    padding: 100px 200px;
+ }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contactus {
+    padding: 100px 200px;
+ }
+}
